@@ -1,0 +1,39 @@
+AOSP CHECKPOINT
+===============
+
+AOSP checkout: ~/AOSP
+
+Target:
+  Product: aosp_cf_x86_64_only_phone
+  Release: aosp_current
+  Variant: userdebug
+  Architecture: x86_64
+
+Platform:
+  Android 17
+  Build ID: CP2A.260605.016
+
+Repository state:
+  repo status: clean
+
+Initial repo sync:
+  repo sync -c -j8
+  completed successfully
+
+Initial build:
+  m -j8
+  failed during Soong bootstrap with exit 137 (Killed)
+  Host physical RAM: approximately 15.3 GiB
+
+Retry:
+  m -j2
+  also failed during Soong bootstrap with exit 137 (Killed)
+
+Current AOSP checkout size:
+  approximately 151 GB
+
+Current generated build output:
+  approximately 2 GB
+
+Revision-pinned manifest:
+  manifests/aosp-revisioned.xml
