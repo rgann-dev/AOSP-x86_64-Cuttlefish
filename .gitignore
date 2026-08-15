@@ -1,0 +1,46 @@
+# AOSP source/build trees
+AOSP/
+out/
+*.img
+*.img.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Build artifacts
+build/
+dist/
+output/
+
+# Logs
+*.log
+logs/
+
+# Android/Gradle
+.gradle/
+.idea/
+*.iml
+local.properties
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor/OS
+.vscode/
+.DS_Store
+
+# Secrets/credentials
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
